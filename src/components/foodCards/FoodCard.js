@@ -1,8 +1,13 @@
 import React from "react";
+import './FoodCard.css';
 
 const FoodCard = () => {
   return (
     <>
+     <div className = "article-section">
+     <div className="section-heading">
+      Latest Articles
+     </div>
       <div className="card-row">
         <div className="card-body">
           <div className="card-img">
@@ -19,7 +24,7 @@ const FoodCard = () => {
             </p>
           </div>
           <div className="card-footer">
-            <button className="btn btn-primary">Read More</button>
+            <button className="btn btn-primary read-more">Read More</button>
         </div>
       </div>
 
@@ -38,7 +43,7 @@ const FoodCard = () => {
             </p>
           </div>
           <div className="card-footer">
-            <button className="btn btn-primary">Read More</button>
+            <button className="btn btn-primary read-more">Read More</button>
         </div>
       </div>
 
@@ -58,10 +63,13 @@ const FoodCard = () => {
             </p>
           </div>
           <div className="card-footer">
-            <button className="btn btn-primary">Read More</button>
+            <button className="btn btn-primary read-more">Read More</button>
         </div>
       </div>
+
       </div>
+      </div>
+      
     </>
   );
 };
