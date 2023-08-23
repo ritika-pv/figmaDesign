@@ -6,18 +6,18 @@
 }
 
 
-.heroText{
+/* .heroText{
     width: 50vw;
-}
+} */
 
 .imageBox{
-    width:50vw;
+  
     background-image: url('../../../public/images/Pizza.png');
-    background-position: center; 
+    /* background-position: center;  */
     background-repeat: no-repeat; 
-    background-size: cover;
-    background-size: 730px;
-    height: 100%;
+    /* background-size: cover; */
+background-size: 730px;
+  
 }
 
 /* .postion-relative{
@@ -28,12 +28,12 @@
     height: 100%;
     width: 100%;
 } */
-
+/* 
 .imageBox{
     height: 100vh;
     overflow: hidden;
 }
-
+ */
 
 .d-flex{
     display: flex;
@@ -54,7 +54,7 @@
 }
 
 .heroText{
-    padding: 30px  100px;
+    padding: 3vw  3vw;
 }
 
 .text{
@@ -62,7 +62,7 @@
 }
 
 .text > h2{
-    font-size: 62px;
+    font-size: 4vw;
     width: 65%;
     color: var(--primary);
 }
@@ -86,7 +86,7 @@
 .p-font{
     font-weight:  400;
     color: var(--para-color);
-    font-size: 20px;
+    font-size: 1.3vw;
     line-height : 27.41px
 }
 
@@ -102,4 +102,39 @@
     font-weight: 400;
     border: none;
     outline: none;
+}
+.logo img{
+    width: 6vw;
+}
+
+@media (max-width: 800px) {
+.hero{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.logo img{
+   display: none;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.text > h2{
+    font-size: 5vh;
+    width: 71%;
+    color: var(--primary);
+}
+.text > p{
+    font-size: 2vh; 
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }

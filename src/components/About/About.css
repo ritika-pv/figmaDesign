@@ -10,6 +10,7 @@
     margin-top: 5vw;
     background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
     ;
+    height: fit-content;
 }
 .aboutText{
     margin-top: 110px;
@@ -33,7 +34,9 @@
 .mr-10{
     margin-right: 10px;
 }
-
+.ml-10{
+    margin-left: 10px;
+}
 .mt-25{
     margin-top: 25px;
 }
@@ -59,18 +62,26 @@
     outline: none;
 }
 
-.imgBox  img{
+/* .imgBox  img{
     width: 384px;
 height: 468px;
 top: 989px;
 left: 205px;
 
-}
+} */
 
 .aboutText{
-    Width:447px;
-Height:254px;
-Top:1096px;
-Left:789px;
-Gap:21px;
+    width:447px;
+height:254px;
+
 }
+
+
+@media (max-width: 720px) {
+    .imgBox {
+      display: none;
+    }
+    .aboutUs{
+        height: 500px;
+    }
+  }
