@@ -1,30 +1,105 @@
-*{
-    margin: 0px;
-    padding: 0px;
+:root{
+    --primary : #0E2368;
+    --reddish : #E23744;
+    --para-color : #444957;
+    --white : #fff;
 }
 
-.hero{
-    display: flex;
-    /* align-items: flex-end; */
-    height: 820px;
-}
+
 .heroText{
     width: 50vw;
 }
-/* .imageVector{
-   height: 839px;
-   width: 752px;
-} */
+
 .imageBox{
     width:50vw;
     background-image: url('../../../public/images/Pizza.png');
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    background-size: 735px;
-}
-.imageBox img{
+    background-size: 730px;
     height: 100%;
-    width: 100%;
 }
 
+/* .postion-relative{
+    position: relative;
+} */
+
+/* .imageBox img:nth-child(1){
+    height: 100%;
+    width: 100%;
+} */
+
+.imageBox{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.centre-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroText{
+    padding: 30px  100px;
+}
+
+.text{
+    margin-top: 110px;
+}
+
+.text > h2{
+    font-size: 62px;
+    width: 65%;
+    color: var(--primary);
+}
+
+.reddish-color{
+    color: var(--reddish);
+}
+
+.mr-1{
+    margin-right: 5px;
+}
+
+.mr-2{
+    margin-right: 10px;
+}
+
+.mt-3{
+    margin-top: 15px;
+}
+
+.p-font{
+    font-weight:  400;
+    color: var(--para-color);
+    font-size: 20px;
+    line-height : 27.41px
+}
+
+.w-70{
+    width: 70%;
+}
+
+.round-btn {
+    padding: 14px 34px 14px 34px;
+    border-radius: 34px;
+    background-color: var(--reddish);
+    color: var(--white);
+    font-weight: 400;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,76 @@
+
+
+.d-flex{
+    display: flex;
+}
+
+
+.aboutUs{
+    justify-content: space-around;
+    margin-top: 5vw;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    ;
+}
+.aboutText{
+    margin-top: 110px;
+}
+
+.aboutText > h2{
+    font-weight: 600;
+    font-size: 45px;
+    width: 65%;
+    color: var(--primary);
+}
+
+.reddish-color{
+    color: var(--reddish);
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+.aboutText .p-font{
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--para-color);
+    line-height : 27.41px
+}
+
+.w-70{
+    width: 70%;
+}
+
+.round-btn {
+    padding: 14px 34px 14px 34px;
+    border-radius: 34px;
+    background-color: var(--reddish);
+    color: var(--white);
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+.imgBox  img{
+    width: 384px;
+height: 468px;
+top: 989px;
+left: 205px;
+
+}
+
+.aboutText{
+    Width:447px;
+Height:254px;
+Top:1096px;
+Left:789px;
+Gap:21px;
+}
