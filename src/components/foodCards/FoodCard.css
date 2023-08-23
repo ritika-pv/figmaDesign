@@ -1,0 +1,11 @@
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 500px) {
+    .card-row{
+        flex-direction: column;
+    }
+}
