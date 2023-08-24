@@ -1,58 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&family=Poppins:wght@300;600;700&family=Roboto:wght@300;400&family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&family=Poppins:wght@300;700&family=Roboto:wght@300;400&family=Source+Sans+3:wght@700&display=swap');
 
-
-.d-flex{
+.d-flex {
     display: flex;
 }
 
 
-.aboutUs{
+.aboutUs {
     justify-content: space-around;
     margin-top: 5vw;
     background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
     ;
     height: fit-content;
 }
-.aboutText{
+
+.aboutText {
     margin-top: 110px;
 }
 
-.aboutText > h2{
+.aboutText>h2 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 45px;
     width: 65%;
     color: var(--primary);
 }
 
-.reddish-color{
+.reddish-color {
     color: var(--reddish);
 }
 
-.mr-5{
+.mr-5 {
     margin-right: 5px;
 }
 
-.mr-10{
+.mr-10 {
     margin-right: 10px;
 }
-.ml-10{
+
+.ml-10 {
     margin-left: 10px;
 }
-.mt-25{
+
+.mt-25 {
     margin-top: 25px;
 }
 
-.aboutText .p-font{
+.aboutText .p-font {
     font-weight: 400;
     font-size: 15px;
     color: var(--para-color);
-    line-height : 27.41px
+    line-height: 27.41px;
+    font-family: 'Open Sans', sans-serif;
+
+
 }
 
-.w-70{
+.w-70 {
     width: 70%;
 }
 
 .round-btn {
+
     padding: 14px 34px 14px 34px;
     border-radius: 34px;
     background-color: var(--reddish);
@@ -70,18 +79,19 @@ left: 205px;
 
 } */
 
-.aboutText{
-    width:447px;
-height:254px;
+.aboutText {
+    width: 447px;
+    height: 254px;
 
 }
 
 
 @media (max-width: 720px) {
     .imgBox {
-      display: none;
+        display: none;
     }
-    .aboutUs{
+
+    .aboutUs {
         height: 500px;
     }
-  }
+}

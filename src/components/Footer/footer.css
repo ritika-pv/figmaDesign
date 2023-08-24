@@ -1,5 +1,15 @@
-.image{
-    width:161px;
-    height:125px;
+.image {
+    width: 161px;
+    height: 125px;
     margin-top: 5vh;
+}
+
+h6 {
+    color: var(--primary);
+}
+
+.Footer {
+    background-color: rgb(244, 244, 244);
+    margin-top: 75px;
+    padding-top: 68px;
 }

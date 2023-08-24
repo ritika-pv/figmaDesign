@@ -2,15 +2,16 @@ import About from "./components/About/About";
 import Hero from "./components/hero/hero";
 import './App.css'
 import Footer from "./components/Footer/footer";
-import FoodCard from "./components/foodCards/FoodCard";
+
+import LatestArticles from "./components/LatestArticles/LatestArticles";
 
 function App() {
   return (
     <div className="App">
-      <Hero/>
-      <About/>
-      <FoodCard/>
-      <Footer/>
+      <Hero />
+      <About />
+      <LatestArticles />
+      <Footer />
     </div>
   );
 }
